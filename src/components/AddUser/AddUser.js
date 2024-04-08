@@ -25,7 +25,7 @@ const AddUser = () => {
       setLoading(false);
       navigate('/');
     } catch (error) {
-      console.error('Error:', error);
+      console.error('Error....:', error);
       setLoading(false);
     }
   };
